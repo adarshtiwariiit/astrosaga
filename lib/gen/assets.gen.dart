@@ -31,6 +31,10 @@ class $AssetsImagesGen {
   AssetGenImage get appBarWallet =>
       const AssetGenImage('assets/images/app_bar_wallet.png');
 
+  /// File path: assets/images/app_logo.png
+  AssetGenImage get appLogo =>
+      const AssetGenImage('assets/images/app_logo.png');
+
   /// File path: assets/images/call.png
   AssetGenImage get call => const AssetGenImage('assets/images/call.png');
 
@@ -99,6 +103,7 @@ class $AssetsImagesGen {
     appBarNotification,
     appBarSearch,
     appBarWallet,
+    appLogo,
     call,
     callWhite,
     course,
