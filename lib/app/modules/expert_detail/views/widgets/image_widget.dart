@@ -1,6 +1,7 @@
 import 'package:astrosaga_app/app/theme/app_theme.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:gap/gap.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class ImagesWidget extends StatelessWidget {
@@ -19,14 +20,15 @@ class ImagesWidget extends StatelessWidget {
             style: GoogleFonts.poppins(
               fontSize: 16.sp,
               fontWeight: FontWeight.w500,
-              color: AppColors.text,
+              color: AppColors.black,
             ),
           ),
         ),
+        Gap(12.h),
         SizedBox(
-          height: 156.w,
+          height: 120.w,
           child: ListView.builder(
-            padding: EdgeInsets.all(18.w),
+            padding: EdgeInsets.symmetric(horizontal: 10.w),
             scrollDirection: Axis.horizontal,
             itemBuilder: (context, index) {
               return Container(

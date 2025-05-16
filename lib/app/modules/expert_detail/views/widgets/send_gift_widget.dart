@@ -6,10 +6,7 @@ import 'package:gap/gap.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class SendGiftWidget extends StatelessWidget {
-  const SendGiftWidget({
-    super.key,
-    required this.controller,
-  });
+  const SendGiftWidget({super.key, required this.controller});
 
   final ExpertDetailController controller;
 
@@ -26,18 +23,19 @@ class SendGiftWidget extends StatelessWidget {
             style: GoogleFonts.poppins(
               fontSize: 16.sp,
               fontWeight: FontWeight.w500,
-              color: AppColors.text,
+              color: AppColors.black,
             ),
           ),
         ),
+        Gap(10.h),
         SizedBox(
-          height: 160.w,
+          height: 130.w,
           child: ListView.builder(
-            padding: EdgeInsets.all(18.w),
+            padding: EdgeInsets.symmetric(horizontal: 10.w),
             scrollDirection: Axis.horizontal,
             itemBuilder: (context, index) {
               return Column(
-                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Container(
                     margin: EdgeInsets.symmetric(horizontal: 8.w),
@@ -48,7 +46,7 @@ class SendGiftWidget extends StatelessWidget {
                       color: AppColors.lightestGrey,
                     ),
                   ),
-    
+
                   Column(
                     children: [
                       Text(
