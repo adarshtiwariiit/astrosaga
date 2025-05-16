@@ -1,17 +1,29 @@
-# astrosaga_app
+# 🚀 AstroSagga Task
 
 A new Flutter project.
 
-## Getting Started
+![App Icon](https://github.com/user-attachments/assets/f7a53d1c-5935-45d3-85cb-63bd15474b3c)
 
-This project is a starting point for a Flutter application.<img width="87" alt="Screenshot 2025-05-16 at 5 08 19 PM" src="https://github.com/user-attachments/assets/f7a53d1c-5935-45d3-85cb-63bd15474b3c" />
+---
+
+## 📱 App Screenshots
+
+| | | |
+|:-:|:-:|:-:|
+| ![Screen 1](https://github.com/user-attachments/assets/e4b21343-2502-4c74-90ca-563272e7f6e0) | ![Screen 2](https://github.com/user-attachments/assets/09972fde-c6d1-4348-bca6-f969aee56197) | ![Screen 3](https://github.com/user-attachments/assets/e5c70762-ec16-4f6f-b237-1deb685a5fa2) |
+| ![Screen 4](https://github.com/user-attachments/assets/c1d31f9e-f619-4696-a434-366317f18c91) |  |  |
+
+---
 
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 💡 Features
+
+- Clean UI layout
+- Modular folder structure
+- Ready for future enhancements
+
+---
+
